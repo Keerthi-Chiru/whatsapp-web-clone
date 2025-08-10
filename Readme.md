@@ -59,6 +59,9 @@ text
 
 ## ⚙️ Installation & Local Setup
 
+### Working URL (Deployed)
+- https://storied-cocada-9b12c9.netlify.app/
+
 ### Prerequisites
 - Node.js >= 16
 - MongoDB Atlas account
