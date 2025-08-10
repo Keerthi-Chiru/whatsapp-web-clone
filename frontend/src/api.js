@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Change this to your backend base URL when deployed
-const API = axios.create({ baseURL: "http://localhost:5000" });
+const API = axios.create({ baseURL: "https://whatsapp-web-clone-1n5n.onrender.com" });
 
 export const getConversations = () => API.get("/conversations");
 export const getMessages = (wa_id) => API.get(`/messages/${wa_id}`);
