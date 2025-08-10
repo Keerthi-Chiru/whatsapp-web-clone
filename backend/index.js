@@ -4,10 +4,13 @@ import cors from "cors";
 import { MONGO_URI } from "./config.js";
 import conversationsRoute from "./routes/conversations.js";
 import messagesRoute from "./routes/messages.js";
+import dotenv from 'dotenv';
+
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+dotenv.config();
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)
