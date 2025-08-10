@@ -1,0 +1,1 @@
+export const MONGO_URI = "mongodb+srv://keerthi05niru:5tfkzSVnevwlS2MH@clusterchiru.1cmj9aw.mongodb.net/whatsapp?retryWrites=true&w=majority";
